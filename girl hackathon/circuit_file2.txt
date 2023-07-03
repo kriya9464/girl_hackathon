@@ -1,0 +1,4 @@
+net_e = B ^ C
+net_f = A | D
+net_g = ~ net_e
+z = net_f & net_g
