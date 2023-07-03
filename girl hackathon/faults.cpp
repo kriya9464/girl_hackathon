@@ -86,7 +86,10 @@ int test_vector(vector<vector<int>> &truth_table, map<string,pair<string,int>> &
 
 int main(){
     string fault_at,fault_type;
-    cin>>fault_at>>fault_type;
+    cout<<"Fault_At = ";
+    cin>>fault_at;
+    cout<<"Fault_Type = ";    
+    cin>> fault_type;
 
     fstream myFile;
     myFile.open("circuit_file2.txt", ios::in);
